@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Load schedules from localStorage
     const centerData = JSON.parse(localStorage.getItem('CenterSectionSchedule') || '{}');
-    const frontData = JSON.parse(localStorage.getItem('FrontLineSchedule') || '{}');
+    const frontData = JSON.parse(localStorage.getItem('frontLine_') || '{}');
     const rearData = JSON.parse(localStorage.getItem('RearLineSchedule') || '{}');
 
     const allQuarters = ["Quarter 1", "Quarter 2", "Quarter 3", "Quarter 4", "Quarter 5"];
